@@ -4,4 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: sh check_env.sh
+          - name: Check env
+            working-directory: ./.github/workflows
+            run: sh check_env.sh
