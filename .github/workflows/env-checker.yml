@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
           - name: Check env
-            working-directory: ./.github/workflows
+            working-directory: .
             run: sh check_env.sh
